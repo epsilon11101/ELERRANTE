@@ -1,0 +1,39 @@
+@import "../../../../sass/brand.scss";
+.section{
+    background-color: $secundary_green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    height: 30rem;
+
+    &__content{
+        width: 90%;
+        height: 90%;
+        padding: 1rem;
+        box-shadow: 6px 11px 19px -5px #ffffff60;
+
+        & form{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+
+            & Button{
+                background-color: $secundary_green;
+                color: white;
+                border-color: white;
+
+                &:hover{
+                    background-color: white;
+                    border-color: $secundary_green;
+                    color: $secundary_green;
+                }
+            }
+        }
+
+    }
+
+}
