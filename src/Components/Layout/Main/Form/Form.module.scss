@@ -2,17 +2,16 @@
 .section{
     background-color: $secundary_orange;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem 0;
-    height: 32rem;
-
     &__content{
         width: 90%;
-        height: 100%;
-        padding: 2rem;
+        padding: 1rem;
         box-shadow: 6px 11px 19px -5px #ffffff60;
         border: solid 3px $primary_brown;
+        margin-bottom: 3rem;
+        margin-top: -5rem;
         & form{
             width: 100%;
             display: flex;

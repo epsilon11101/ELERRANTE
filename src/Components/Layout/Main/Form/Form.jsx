@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../../../UI/Button/Button";
+import Section from "../../../UI/Section/Section";
 import Card from "../../../UI/Card/Card";
 import Input from "../../../UI/Input/Input";
 import Select from "../../../UI/Input/Select";
@@ -13,7 +14,7 @@ const Form = () => {
   ];
 
   return (
-    <section className={classes.section}>
+    <Section className={classes.section}>
       <Card className={classes.section__content}>
         <form action="">
           <Select
@@ -33,7 +34,7 @@ const Form = () => {
           <Button type="button">reservar</Button>
         </form>
       </Card>
-    </section>
+    </Section>
   );
 };
 
