@@ -21,12 +21,19 @@
         border-radius: 0.5rem;
         padding: 1rem;
         font-family: $paragraph;
+        &:focus {
+                padding: 0;
+                font-size: 0.9rem;
+                background-color: $primary_cream;
+                border: solid $secundary_orange;
+                color: $secundary_orange;
+
+            }
+
 
     }
 
 
 }
 
-option:checked{
-    background-color: red;
-}
+
