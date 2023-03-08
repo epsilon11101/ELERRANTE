@@ -1,0 +1,19 @@
+@import "../../../../sass/brand.scss";
+
+.section{
+    background-color: $primary_cream;
+    gap: 50px;
+    & h3{
+        margin-top: 5rem;
+        color:$primary_brown;
+    }
+    & Button{
+        color: $primary_cream;
+        margin-bottom: 2rem;
+        &:hover{
+            color: $primary_brown;
+            background-color: $primary_cream;
+            border-color: $primary_brown;
+        }
+    }
+}
