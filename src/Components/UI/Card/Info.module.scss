@@ -1,0 +1,53 @@
+@import "../../../sass/brand.scss";
+
+.info{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    width: 90%;
+    background-color: $primary_brown;
+    &__header{
+        width: 80%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        border: solid 3px $primary_cream;
+        border-radius: 10px;
+        & img{
+            border-radius: 10px;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        color:$primary_cream;
+        width: 100%;
+        
+        & h4{
+            font-family: $title;
+            font-size: 2rem;
+            font-weight:lighter;
+            height: 1px;
+        }
+        & p{
+            text-align: center;
+            font-family: $paragraph;
+            font-weight: 500;
+            font-size: 1rem;
+            padding: 0 1rem;
+        }
+
+    }
+}
