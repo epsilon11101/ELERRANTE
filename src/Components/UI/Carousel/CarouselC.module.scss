@@ -1,0 +1,16 @@
+@import "../../../sass/brand.scss";
+
+$primary_brown: #502A1D;
+
+
+.carousel_wrapper{
+    background-color: $primary_cream;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 1rem 1rem;
+    & h3{
+        margin-top: 3rem;
+    }
+}
